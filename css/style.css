@@ -1,0 +1,713 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Helvetica, sans-serif;
+
+}
+
+nav > #left{
+    height: 75px;
+    width:33.3333%;
+    float: left;
+    text-align: center;
+
+
+    background-color: rgb(102, 118, 138);
+}
+
+ nav > #left > ul{
+
+    text-align: center;
+    display: inline-block;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin: 30px 40px 0px 10px;
+    padding: 0px 0px 0px 0px;
+
+    text-decoration: none;
+    color:white;
+    background-color: rgb(102, 118, 138);
+
+    list-style-type: none;
+}
+
+header > nav > #left > ul > li{
+    float: left;
+
+    width: 105px;
+    height: 25px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+header > nav > #left > ul > li > a{
+    color: white;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+}
+
+header > nav > #center{
+    height: 75px;
+    width:33.3333%;
+    float: left;
+    text-align: center;
+
+    background: rgb(102, 118, 138);
+}
+
+header > nav > #center > #logo{
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background: rgb(102, 118, 138);
+
+    margin:0px 0px 0px 0px;
+    border-radius: 9px;
+    padding: 0px 0px 0px 0px;
+}
+
+header > nav > #center > #logo > img{
+    margin: 10px 0px 0px 0px;
+    height: 50px;
+    width: 55px;
+}
+
+header > nav > #right{
+    height: 75px;
+    width:33.3333%;
+    float: left;
+    text-align: center;
+
+    background: rgb(102, 118, 138);
+}
+
+header > nav > #right > #donate{
+    text-decoration: none;
+    color: rgb(102, 118, 138);
+
+    height: 40px;
+    width:100px;
+
+    display: inline-block;
+    margin: 20px 0px 25px 0px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 0px;
+
+    background-color: white;
+    text-align: center;
+}
+
+
+main{  
+    height: auto;
+    width: 100%;
+    float: left;
+
+    padding: 0px;
+    margin: 0px;
+
+    text-align: center;
+    color:white;
+
+    background: rgb(102, 118, 138);
+
+    background-image: url("lgbigphoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+main > h1{
+    display: block;
+    float: none;
+    text-align: center;
+
+    font-size: 4.9em;
+    color:white;
+    text-shadow: -1px -1px 0 #000;
+
+    font-weight: normal;
+
+    margin: 120px 0px 0px 0px;
+}
+
+main > p{
+    font-size: 2em;
+    line-height: 1.5em;
+
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    float: none;
+    text-align: center;
+
+    color: white;
+    text-shadow: -1px -1px 0 #000;
+
+    margin: 50px 0px 50px 0px;
+    padding: 0px 15% 0px 15%;
+}
+
+body > main > a{
+    clear: both;
+    display: inline-block;
+    float: none;
+    text-align: center;
+
+    width: 100%;
+    height: 50px;
+
+    margin: 0px 0px 100px 0px;
+    padding: 0px 0px 0px 0px;
+
+    font-size: 1.75em;
+    text-decoration: none;
+    color: white;
+}
+
+main > a > img{
+    float: none;
+    clear:both;
+    height:75px;
+    width: 75px;
+    margin: 0px 0px -27.5px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+body > #why{
+    height: auto;
+    width: 100%;
+    float: left;
+
+    margin: 0px 0px 150px 0px;
+    text-align: center;
+
+    background: white;
+}
+
+body > #why > h1{
+    font-size: 3em;
+    margin: 135px 0px 0px 0px;
+    font-weight: normal;
+
+    width: 100%;
+
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+body > #why > p{
+    font-size: 1.5em;
+    margin: 35px 0px 0px 0px;
+    padding: 0px 25% 0px 25%;
+    font-weight: normal;
+
+    width: 100%;
+
+    line-height: 1.5em;
+
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+body > #how{
+    background: rgb(219, 223, 226);
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+#youVisit{
+    height: auto;
+    width: 50%;
+    float: left;
+
+    background: rgb(219, 223, 226);
+}
+
+#youVisit > img{
+    height: auto;
+    width: 60%;
+
+    margin: 110px 20% 10px 20%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#youVisit > span{
+    margin: 50px 20% 0px 20%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+
+    width: 60%;
+
+    font-size: 1.4em;
+}
+
+#youVisit > p{
+    margin: 15px 20% 10px 20%;
+
+    width: 60%;
+    line-height: 1.5em;
+
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#youVisit > p + a{
+    margin: 30px 35% 135px 35%;
+
+    height: 55px;
+    width:30%;
+    border: 1px solid black;
+
+    color: black;
+    text-decoration: none;
+
+    padding: 18px 0px 0px 0px;
+    font-size: 1em;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+#weVisit{
+    height: auto;
+    width: 50%;
+    float: left;
+
+    background: rgb(219, 223, 226);
+}
+
+#weVisit > img{
+    height: auto;
+    width: 60%;
+
+    margin: 110px 20% 33.75px 20%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#weVisit > span{
+    margin: 50px 20% 0px 20%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+
+    width: 60%;
+
+    font-size: 1.4em;
+}
+
+#weVisit > p{
+    margin: 15px 20% 0px 20%;
+
+    width: 60%;
+    line-height: 1.5em;
+
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#weVisit > p + a{
+    margin: 30px 35% 135px 35%;
+
+    height: 55px;
+    width:30%;
+    border: 1px solid black;
+
+    color: black;
+    text-decoration: none;
+
+    padding: 18px 0px 0px 0px;
+    font-size: 1em;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+#volunteer{
+    height: auto;
+    width: 100%;
+    float: left;
+
+    background: white;
+}
+
+body > #volunteer > h1{
+    font-size: 2.5em;
+    padding: 120px 25% 0px 25%;
+    font-weight: normal;
+    width: 100%;
+
+    float:none;
+    display: inline-block;
+    text-align: center;
+}
+
+#volunteer > p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+    width: 600px;
+    margin: 25px 25% 0px 25%;
+    font-weight: normal;
+
+    width: 50%;
+    float:none;
+    display: inline-block;
+    text-align: center;}
+
+#volunteer > a{
+    margin: 30px 40% 100px 40%;
+
+    height: 55px;
+    width:20%;
+    border: 1px solid black;
+
+    text-decoration: none;
+    color: black;
+
+    padding: 17px 0px 0px 0px;
+    font-size: 1em;
+  
+    float:none;
+    display: inline-block;
+    text-align: center;
+}
+
+footer{
+    height: fit-content;
+    width: 100%;
+
+    background: rgb(22, 31, 42);
+    
+    float: left;
+
+}
+
+footer > #left{
+    width: 50%;
+    height: fit-content;
+    margin: 0px 0px 50px 0px;
+    float:left;
+}
+
+footer > #left > #icons{
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+footer > #left > #icons > ul > #socials{
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+footer > #left > #icons > ul > #socials > li {
+    list-style-type: none;
+    float: left;
+
+    margin: 20px 0px 0px 20px;
+}
+
+footer > #left > #icons > ul > #socials > li > a{
+    list-style-type: none;
+    float: left;
+}
+
+footer > #left > #icons > ul > #socials > li > a > img{
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+footer > #left > #icons > ul > #siteMap{
+    clear: both;
+    float: left;
+}
+
+footer > #left > #icons > ul > #siteMap > li{
+    list-style-type: none;
+
+    margin: 20px 0px 5px 20px;
+    float: left;
+
+    color: white;
+}
+
+footer > #left > #icons > ul > #siteMap > li > h3{
+    color: rgb(170, 170, 170);
+    float: left;
+
+    font-size: .8em;
+    
+}
+
+footer > #left > #icons > ul > #siteMap > #secondItem {
+    clear:both;
+    float: left;
+
+    margin: 0px 0px 5px 20px;
+}
+
+footer > #left > #icons > ul > #siteMap > #thirdItem {
+    float:left;
+
+    margin: 0px 0px 10px 10px;
+
+}
+
+#siteMap > li > a{
+    text-decoration: none;
+    color: white;
+
+    float: left;
+}
+
+
+footer > #left > #icons > ul > #contribute{
+    margin: 0px 0px 0px 0px;
+    clear: both;
+    float: left;
+
+}
+
+footer > #left > #icons > ul > #contribute > li{
+    list-style-type: none;
+
+    margin: 20px 0px 5px 20px;
+    float: left;
+
+    color: white;
+}
+
+footer > #left > #icons > ul > #contribute > li > h3{
+    color: rgb(170, 170, 170);
+    float: left;
+
+    font-size: .8em;
+    
+}
+
+footer > #left > #icons > ul > #contribute > #itemSecond {
+    clear:both;
+    float: left;
+
+    margin: 0px 0px 5px 20px;
+}
+
+footer > #left > #icons > ul > #contribute > #itemThird {
+    float:left;
+
+    margin: 0px 0px 5px 10px;
+
+}
+
+footer > #left > #icons > ul > #contribute > li > a{
+    text-decoration: none;
+    color: white;
+
+    float: left;
+}
+
+
+footer > #right{
+    width: 50%;
+    height: fit-content;
+    float:left;
+
+    color: white;
+    background: rgb(22, 31, 42);
+
+    padding: 85px 2% 8px 5%;
+}
+
+#right > h1{
+    font-size: 1.1em;
+    float: right;
+
+}
+
+#right > h2{
+    font-size: 1.1em;
+    clear: both;
+    float: right;
+}
+#right > span{
+    font-size: .8em;
+    clear: both;
+    float: right;
+}
+#right > span + span{
+    font-size: .8em;
+
+    clear: both;
+    float: right;
+}
+#right > span + span + span{
+    font-size: .8em;
+
+    clear: both;
+    float: right;
+}
+
+#right > #lgEmail{
+    font-weight: bold;
+    clear: both;
+    float: right;
+}
+
+footer > #bottom{
+    width: 98%;
+    height: fit-content;
+
+    margin: 1% 0px 0px 1%;
+    padding: 15px 0px 40px 0px;
+
+    clear: both;
+    float:left;
+    background: rgb(22, 31, 42);
+    border-top: 1px solid white;
+}
+
+#bottom > p{
+    float: left;
+    color: white;
+    font-size: 1em;
+
+    width: 90%;
+    padding: 10px 0px 0px 50px;
+}
+#bottom > a{
+    float: right;
+    width: 10%;
+    padding: 10px 1% 0px 1%;
+}
+#bottom > a > img{
+    
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin: 0px 1% 0px 5%;
+}
+
+nav > #left > ul > .impossibleBurger{
+    height: 40px;
+    width: 40px;
+    margin: -10px 0px 0px 0px;
+    display: none;
+  }
+
+nav > #left > ul > .impossibleBurger > a > img{
+    margin: 0px 0px 0px -10px;
+    padding: 0px 0px 0px 0px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 925px){
+
+    nav > #left > ul > .impossibleBurger{
+      display: block;
+      float: left;
+    }
+
+    header > nav > #center > #logo > img{
+        text-align: center;
+    }
+
+    .buttonTemp{
+        display: none;
+    }
+
+    header > nav > #left{
+        width: 50%;
+    }
+
+    header > nav > #center{
+        width: 50%;
+    }
+
+    nav > #right{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 700px){ 
+
+    body > #how{
+        width: 100%;
+    }
+
+    #youVisit{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+    display: block;
+    float: left;
+   }
+
+    #weVisit{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    float: left;   
+    }
+
+   body > #why{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 570px){
+    body > main > h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    body > main > h1{
+        font-size: 2em;
+    }
+}
+
